@@ -1,14 +1,14 @@
 import { Routes, Route } from 'react-router-dom'
 
 
-import Home from './component/Home'
-import Navbar from './component/Navbar'
-import Footer from './component/Footer'
-import Events from './component/Events'
-import Gallery from './component/Gallery'
-import Donation from './component/Donation'
-import Contact from './component/Contact'
-import AboutUs from './component/AboutUs'
+import Home from './component/Home/Index'
+import Navbar from './component/Navbar/Index'
+import Footer from './component/Footer/index'
+import Events from './component/Events/Index'
+import Gallery from './component/Gallery/Index'
+import Donation from './component/Donation/Index'
+import Contact from './component/Contact/Index'
+import AboutUs from './component/AboutUs/Index'
 
 
 import './app.css'
