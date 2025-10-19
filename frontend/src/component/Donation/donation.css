@@ -1,0 +1,80 @@
+.donation-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: rgb(28, 9, 95);
+    margin-bottom: 30px;
+
+}
+
+.donation-container h2 {
+
+    font-size: 30px;
+
+
+}
+
+.donation {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 30px 50px;
+    width: 80%;
+
+}
+
+.left {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    width: 50%;
+}
+
+.left h3 {
+
+    font-size: 30px;
+
+}
+
+.left .bankNumber {
+    font-size: 20px;
+    margin-top: -17px;
+
+
+
+}
+
+.bankNumber p>span {
+
+    color: rgb(150, 85, 20);
+    font-weight: 600;
+
+}
+
+
+@media screen and (max-width:730px) {
+
+    .donation {
+        flex-direction: column;
+        padding: 0 50px 30px 50px;
+        margin-top: -20px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left h3 {
+        width: 100%;
+
+    }
+
+}

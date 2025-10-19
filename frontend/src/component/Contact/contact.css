@@ -1,0 +1,80 @@
+.form-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family: sans-serif;
+width: 100%;
+margin-bottom: 20px;
+}
+
+.form-container h2{
+font-size: 30px;
+color: rgb(24, 24, 68);
+
+}
+
+form{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 8px;
+border: 0.1px solid peru;
+width: 50%;
+height: 50vh;
+margin-bottom: 80px;
+padding: 10px 0;
+border-radius: 8px;
+}
+.input label{
+
+color: darkblue;
+font-size: 18px;
+
+}
+
+.input input{
+
+padding: 8px 8px;
+outline: none;
+border: 0.2px solid darkblue;
+border-radius: 8px;
+width: 100%;
+}
+
+.input .textarea{
+
+height: 100px;
+word-wrap: break-word;
+text-align: center;
+}
+
+form button{
+padding: 10px 5px;
+width: 150px;
+border-radius: 8px;
+cursor: pointer;
+color: darkblue;
+
+}
+
+form button:hover{
+
+background: #3c5f3b5d;
+color: green;
+
+}
+
+@media  screen and (max-width:750px) {
+
+form{
+
+width: 80%;
+padding: 30px 10px;
+
+}
+
+    
+}

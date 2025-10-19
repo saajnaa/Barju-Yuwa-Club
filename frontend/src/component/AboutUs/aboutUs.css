@@ -1,0 +1,55 @@
+.aboutus-container {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+.aboutus-container h2{
+
+
+font-size:28px;
+color: rgb(28, 28, 73);
+
+}
+
+
+.main p {
+
+    padding: 0 30px;
+    font-size: 19px;
+
+}
+
+.teams {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.teams h2 {
+color: rgb(15, 15, 53);
+    font-size: 25px;
+font-weight:700;
+}
+
+.teams ul {
+
+    margin-top: -5px;
+}
+
+.teams ul li {
+
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(15, 15, 68);
+    margin-top: 4px;
+}

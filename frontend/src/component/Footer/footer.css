@@ -1,0 +1,73 @@
+.dev-sec {
+    background-color: #331073;
+     padding: 6px 0;
+}
+
+.orgname {
+
+    color: rgb(0, 217, 255);
+}
+
+.dev-sec .p1 {
+
+    padding-bottom: 0;
+    font-size: 1.8vw;
+     font-family: sans-serif;
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ }
+
+
+.p1 .span2 {
+
+margin-left: 5px;
+    color: #ff00ee;
+
+}
+
+
+
+.dev-sec .p2 {
+
+ margin-top: -10px;
+    text-align: center;
+    color: rgb(235, 233, 230);
+    font-family: sans-serif;
+
+}
+
+.footerlink {
+    color: #ffd500;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+.footerlink:hover {
+
+    color: #6afe00;
+
+
+}
+
+@media screen and (max-width:800px) {
+
+    .dev-sec .p1{
+
+
+        font-size: 2.5vw;
+    }
+    
+}
+
+@media screen and (max-width:580px) {
+    
+.dev-sec .p1{
+
+font-size: 4vw;
+
+}
+
+}

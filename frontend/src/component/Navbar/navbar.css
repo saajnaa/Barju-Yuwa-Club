@@ -1,0 +1,192 @@
+nav {
+
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(240, 174, 6);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    align-items: center;
+}
+
+.logo {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: 310px;
+    margin-left: 15px;
+    cursor: pointer;
+    user-select: none;
+    color: darkblue;
+    transition: all .1s ease-in;
+}
+
+.logo:hover {
+    scale: 0.97;
+}
+
+.logo img {
+
+    height: 50px;
+    width: 50px;
+
+}
+
+
+.logo h3 {
+
+
+    font-size: 25px;
+    color: #3060AD;
+    font-weight: 900;
+    display: inline;
+
+
+}
+
+.logo h3:active{
+color: rgb(8, 37, 163);
+
+}
+
+.nav-links {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 25px;
+    font-size: 19px;
+    margin-right: 15px;
+    text-decoration: none;
+
+}
+
+.nav-links li {
+
+
+    list-style-type: none;
+    font-family: sans-serif;
+    color: #020641;
+    font-size: 1.6vw;
+    font-weight: 500;
+
+
+}
+
+.nav-links li>.link {
+
+    text-decoration: none;
+
+}
+
+
+
+.nav-links li:hover {
+
+    text-decoration: underline;
+    color: #06811d;
+
+}
+
+.nav-links li:active {
+
+    color: rgb(0, 217, 255);
+
+}
+
+
+
+.navmenu {
+    font-size: 45px;
+    color: rgb(27, 27, 146);
+    margin-right: 15px;
+    cursor: pointer;
+    display: none;
+
+}
+
+
+/*========================================== responsive styling======================================== */
+
+@media only screen and (max-width:786px) {
+
+    .nav {
+
+
+        position: relative;
+
+
+    }
+
+    .logo img {
+
+        height: 10vw;
+        width: 10vw;
+
+    }
+
+
+    .nav-links {
+
+        width: 50%;
+        min-height: 60vh;
+        position: absolute;
+        background-color: rgb(240, 174, 6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        top: 100px;
+        gap: 4px;
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+
+    }
+
+    .nav-links li {
+
+        text-decoration: none;
+        color: #020641;
+        font-size: 5vw;
+        font-weight: 500;
+
+    }
+
+
+    .navmenu {
+
+        display: block;
+
+    }
+
+
+    .navmenu .hidemenu {
+        display: none;
+
+    }
+
+    .navmenu .cancel {
+        display: none;
+
+    }
+
+    .navmenu .showcancel {
+
+
+        display: block;
+
+    }
+
+
+    .mobile-view {
+
+        display: none;
+
+    }
+
+}
