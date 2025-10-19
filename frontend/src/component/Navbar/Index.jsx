@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { RxCross2 } from "react-icons/rx";
 import { BiMenuAltRight } from "react-icons/bi";
 
-import '../Navbar/Navbar.css'
+import './navbar.css'
 import logo from '../../assets/img/fevicon/fevicon.png'
 
 function Navbar() {
