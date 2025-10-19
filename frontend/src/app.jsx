@@ -9,6 +9,7 @@ import Gallery from './component/Gallery/Index'
 import Donation from './component/Donation/Index'
 import Contact from './component/Contact/Index'
 import AboutUs from './component/AboutUs/Index'
+import Og from './component/og/Og'
 
 
 import './app.css'
@@ -17,6 +18,7 @@ export function App() {
 
   return (
     <>
+    <Og />
       <Navbar />
       <Routes>
         <Route path='/' element={<Home/>}></Route>
